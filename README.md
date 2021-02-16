@@ -3,19 +3,19 @@
 > This app built in Ruby on Rails, which is part of Ruby on Rails Curriculum in [the Odin Project’s](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication).
 
 <div align="center">
-  <img src="pic-login.png?raw=true" width="auto" height="auto"/>
+  <img src="snapshot_loged_in.png?raw=true" width="auto" height="auto"/>
 </div>
 
 <div align="center">
-  <img src="pic-logout.png?raw=true" width="auto" height="auto"/>
+  <img src="snapshot_loged_out.png?raw=true" width="auto" height="auto"/>
 </div>
 
 <div align="center">
-  <img src="pic-signup.png?raw=true" width="auto" height="auto"/>
+  <img src="snapshot_sign_up.png?raw=true" width="auto" height="auto"/>
 </div>
 
 <div align="center">
-  <img src="pic-edit.png?raw=true" width="auto" height="auto"/>
+  <img src="snapshot_sign_in.png?raw=true" width="auto" height="auto"/>
 </div>
 
 **What you can do with this project**
@@ -36,13 +36,13 @@ Text Editor (VSCode is suggested.) Ruby Rails Bundler Yarn SQL
 
 To get a local copy up and running follow these simple example steps.
 
-- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/SarvarKh/Members-Only).
+- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/SarvarKh/Clubhouse).
 - Under the repository name, locate and click on a green button named `Code`.
 - Copy the project URL as displayed.
 - If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal.
 - Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
-  `$ git clone https://github.com/SarvarKh/Members-Only` <em>Press Enter key</em><br>
+  `$ git clone https://github.com/SarvarKh/Clubhouse` <em>Press Enter key</em><br>
 - Press Enter. Your local copy will be created.
 
 Please Note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03).
@@ -75,7 +75,7 @@ Please Note that you must have Git installed on your PC, this can be done [here]
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SarvarKh/Members-Only/issues).
+Feel free to check the [issues page](https://github.com/SarvarKh/Clubhouse/issues).
 
 ## Show your support
 
