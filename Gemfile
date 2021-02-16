@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -59,5 +57,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'bulma-rails', '~> 0.9.1'
 gem 'devise'
-gem 'simple_form'
 gem 'rubocop', '~>0.81.0'
+gem 'simple_form'
