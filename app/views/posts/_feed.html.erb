@@ -1,0 +1,40 @@
+<div class="column is-half">
+  <% if user_signed_in? %>
+	<article class="media box">
+		<figure class="media-left">
+			<p class="image is-64x64">
+				<img src="https://bulma.io/images/placeholders/64x64.png">
+			</p>
+		</figure>
+		<div class="media-content">
+			 <%= render 'posts/form' %>
+		</div>
+	</article>
+  <% end %>
+
+
+<% @posts.each do | post | %>
+  <div class="box">
+  	<article class="media">
+  		<div class="media-left">
+  			<figure class="image is-64x64">
+  				<img src="https://bulma.io/images/placeholders/64x64.png">
+  			</figure>
+  		</div>
+  		<div class="media-content">
+  			<div class="content">
+        <% if user_signed_in? %>
+  				<strong><%= post.user.name %></strong><br />
+  				<small><%= post.user.username %></small><br/>
+        <% else %>
+  				<strong>Anonymous User</strong><br />
+        <% end %>
+
+  				<p><%= post.post %></p>
+  			</div>
+
+  		</div>
+  	</article>
+  </div>
+<% end %>
+</div>
